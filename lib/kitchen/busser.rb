@@ -189,7 +189,7 @@ module Kitchen
     end
 
     def is_chef_data_dir?(base, file)
-      file =~ %r[^#{base}/(data|data_bags|environments|nodes|roles)/]
+      file =~ %r[^#{base}/(data|data_bags|environments|nodes|roles|puppet)/]
     end
 
     def helper_files
